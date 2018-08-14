@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"></style>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <title>WebApp</title>
 </head>
-<body>
-    index +immoc
-    <span>jeffrey zhao</span>
+
+<body ng-app='app'>
+
+    <div ui-view></div>
+    <script type="text/javascript">
+        // document.getElementsByTagName('html')[0].style.fontSize = window.screen.width /10 +'px';     
+    </script>
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>

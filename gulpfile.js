@@ -9,7 +9,7 @@ var app = {
 };
 
 gulp.task("lib",function(){
-    gulp.src('bower_components/**/*.js')
+    gulp.src('bower_components/**/*')
     .pipe(gulp.dest(app.devPath+'vendor'))
     .pipe(gulp.dest(app.prdPath+'vendor'))
     .pipe($.connect.reload())
